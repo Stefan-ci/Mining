@@ -40,7 +40,7 @@ class Block:
 # Blockchain class
 class Blockchain:
     """
-    Contains all transactions, blocks, ...
+    Contains all transactions, blocks, ... \n
     Methods:
         add() -> Adding a block to the chain \n
         mine() -> Mining a block.
@@ -70,7 +70,7 @@ class Blockchain:
                 block.nonce += 1
 
 
-blockchain = Blockchain() # Initialize Blockchain() class
+blockchain = Blockchain()  # Initialize Blockchain() class
 
 for n in range(10):
     blockchain.mine(Block('Block ' + str(n+1)))
