@@ -1,0 +1,1 @@
+# Sample BTC mining simulation
